@@ -11,7 +11,7 @@ void removeDuplicate(string s){
 			}
 		}
 		 if(flag)
-         ans=ans+s[i];
+                   ans=ans+s[i];
 	}
 	cout<<ans;
 }
