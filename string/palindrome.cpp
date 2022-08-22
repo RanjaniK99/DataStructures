@@ -2,14 +2,17 @@
 using namespace std;
 bool palin(string s){
 	int l=s.length();
+	bool flag =true;
 	for(int i=0;i<l/2;i++){
 		if(s[i]!=s[l-i-1]){
-			return false;
+			flag=false;
+		}}
+		if(flag){
+		    return true;
 		}
 		else{
-			return true;
+		    return false;
 		}
-	}
 }
 int main(){
   string s;
