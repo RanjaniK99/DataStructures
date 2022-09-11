@@ -38,18 +38,3 @@ int main(){
 	for(int i=0;i<n;i++){
 		cin>>arr[i];
 	}*/
-/*
-stack<int> s;
-	s.push(arr[0]);
-	for(int i=0;i<n;i++){
-		if(s.top()!=arr[i]){
-			s.push(arr[i]);
-		}
-	}
-	for(int i=0;i<n;i++){
-		cout<<s.top()<<" ";
-		s.pop();
-	}
-//	for(int i=n;i>0;i--){
-//		cout<<arr[i];
-//	}*/
